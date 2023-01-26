@@ -1,0 +1,40 @@
+.button{
+    border: none;
+    color: white;
+    padding: 14px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.primary {background-color: #008CBA}
+.primary:hover{
+    background-color: #0063ba
+}
+
+.rounded{
+    border-radius: 100px;
+    transition: all .2s;
+    background-color: #819ffa;
+}
+.rounded:hover{
+    background-color: #a181fa;
+}
+/*==============РАЗМЕРЫ КНОПОК=================*/
+.small{
+    padding: 10px 20px;
+    font-size: 12px;
+}
+.medium{
+    padding: 14px 30px;
+    font-size: 16px;
+}
+.large{
+    padding: 16px 36px;
+    font-size: 20px;
+}
+
